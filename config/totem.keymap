@@ -39,7 +39,25 @@
             compatible = "zmk,behavior-tap-dance";
             label = "ESC_CAPS_WORD";
             #binding-cells = <0>;
-            bindings = <&gresc>, <&caps_word>;
+            bindings = <&esc_grave_tilde>, <&caps_word>;
+        };
+
+        grave_tilde: grave_tilde {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GRAVE_TILDE";
+            bindings = <&kp GRAVE>, <&kp TILDE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LGUI|MOD_RGUI)>;
+        };
+
+        esc_grave_tilde: esc_grave_tilde {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ESC_GRAVE_TILDE";
+            bindings = <&kp ESCAPE>, <&grave_tilde>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
