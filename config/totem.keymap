@@ -88,7 +88,7 @@
             bindings = <
                 &kp B        &kp L           &kp D           &kp C             &kp V        &kp J            &kp Y        &kp O           &kp U           &kp SEMI
                 &mt LCTRL N  &mt LEFT_ALT R  &mt LEFT_WIN T  &mt LEFT_SHIFT S  &kp G        &kp P            &mt LSHFT H  &mt LEFT_WIN A  &mt LEFT_ALT E  &mt LCTRL I
-&esc_caps_word  &kp X        &kp Q           &kp M           &kp W             &kp Z        &kp K            &kp F        &kp APOS        &kp COMMA       &kp DOT      &kp FSLH
+&esc_caps_word  &kp X        &kp Q           &kp M           &kp W             &kp Z        &kp K            &kp F        &kp COMMA       &kp DOT         &kp FSLH     &kp APOS
                                              &mo 3           &lt 4 RETURN      &lt 5 TAB    &lt 3 BACKSPACE  &lt 4 SPACE  &lt 5 DEL
             >;
         };
