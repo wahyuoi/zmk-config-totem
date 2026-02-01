@@ -116,7 +116,7 @@
 
         sym_func {
             bindings = <
-       &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE         &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &none
+       &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE         &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR  &kp UNDER
        &kp EXCLAMATION  &kp ASTRK      &kp SLASH         &kp EQUAL          &kp AMPERSAND    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI    &kp DOUBLE_QUOTES
 &none  &kp TILDE        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT      &kp AT     &kp COLON             &kp COMMA              &kp PERIOD  &kp SQT            &none
                                        &trans            &trans             &trans           &none      &none                 &none
